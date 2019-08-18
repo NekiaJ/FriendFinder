@@ -7,9 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.16.3"
- },
-
+    "express": "^4.17.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NekiaJ/FriendFinder.git"
