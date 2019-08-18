@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "app to find a match for a friend",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bserver.js)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+ },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekiaJ/FriendFinder.git"
+  },
+  "author": "Shanekia Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NekiaJ/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/NekiaJ/FriendFinder#readme"
+}
