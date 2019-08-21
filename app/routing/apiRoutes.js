@@ -11,13 +11,14 @@ module.exports = function(app) {
         });
 ///// 
         app.post("/api/friends", function (request,response){
-            console.log(req.body.scores);
+            // scores refers to the array in friendArray in friend.js
+            console.log(request.body.scores);
                // takes in all user details (name,pic,scores from survey)
-               var user =request.body;
+               var user = request.body;
 
                //parse data for scores
                for(var i = 0; i < user.scores.length; i++){
-                   user.scores[i] =parseInt(user.scores[i]);
+                   user.scores[i] = parseInt(user.scores[i]);
                }
                
                //starting point for matching friends
@@ -46,7 +47,7 @@ module.exports = function(app) {
                     friendData.push(user);
 
                     //sends the bf match to the browser
-                    res.json(friendData[friendMatchIndx]);
+                    response.json(friendData[friendMatchIndx]);
                }
      });
 

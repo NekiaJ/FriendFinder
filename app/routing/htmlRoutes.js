@@ -8,7 +8,7 @@
 
    module.exports = function (app) {
        app.get("/survey", function(require,response){
-           response.senfFile(path.join(__dirname,"../public/survey.html"));
+           response.sendFile(path.join(__dirname,"../public/survey.html"));
        })
 
 
